@@ -1,13 +1,11 @@
 Summary:	library of python code used by various programs
 Summary(pl):	Pliki wsadowe dla jêzyka python
 Name:		pythonlib
-Version:	1.22
-Release:	4
+Version:	1.26
+Release:	2
 Copyright:	GPL
 Group:		Development/Libraries
 Source:		%{name}-%{version}.tar.gz
-Patch0:		pythonlib-Conf.patch 
-Patch1:		pythonlib-user.patch 
 Requires:	python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Buildarch:	noarch
@@ -22,13 +20,11 @@ W pakiecie znajduj± siê pliki wykorzystywane przez wiele programów.
 
 %prep
 %setup -q
-%patch0 -p1 
-%patch1 -p1 
 
 %build
 
 %install
-%{__make} install LIBDIR=$RPM_BUILD_ROOT%{_libdir}/rhs/python
+%{__make} install LIBDIR=$RPM_BUILD_ROOT%{_libdir}/python
 
 gzip -9nf CHANGES
 
@@ -38,4 +34,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc CHANGES.gz
-%{_libdir}/rhs/python
+%{_libdir}/python
