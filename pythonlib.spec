@@ -28,7 +28,7 @@ W pakiecie znajduj± siê pliki wykorzystywane przez wiele programów.
 %build
 
 %install
-make install LIBDIR=$RPM_BUILD_ROOT/usr/lib/rhs/python
+make install LIBDIR=$RPM_BUILD_ROOT%{_libdir}/rhs/python
 
 %clean 
 rm -rf $RPM_BUILD_ROOT
@@ -36,7 +36,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644, root, root, 755)
 %doc CHANGES
-/usr/lib/rhs/python
+%{_libdir}/rhs/python
 
 %changelog
 * Sun Nov 15 1998 Wojtek ¦lusarczyk <wojtek@shadow.eu.org>
