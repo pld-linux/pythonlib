@@ -34,7 +34,7 @@ make install LIBDIR=$RPM_BUILD_ROOT%{_libdir}/rhs/python
 rm -rf $RPM_BUILD_ROOT
 
 %files
-%defattr(644, root, root, 755)
+%defattr(644,root,root,755)
 %doc CHANGES
 %{_libdir}/rhs/python
 
