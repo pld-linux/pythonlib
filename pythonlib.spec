@@ -3,15 +3,17 @@ Summary(pl):	Pliki wsadowe dla jêzyka python
 Name:		pythonlib
 Version:	1.26
 Release:	2
-Copyright:	GPL
+License:	GPL
 Group:		Development/Libraries
-Source:		%{name}-%{version}.tar.gz
+Group(fr):	Development/Librairies
+Group(pl):	Programowanie/Biblioteki
+Source0:	%{name}-%{version}.tar.gz
 Requires:	python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Buildarch:	noarch
 
 %description
-This package contains code used by a variety of programs. It includes 
+This package contains code used by a variety of programs. It includes
 code for multifield listboxes and entry widgets with non-standard
 keybindings, among others.
 
@@ -24,6 +26,7 @@ W pakiecie znajduj± siê pliki wykorzystywane przez wiele programów.
 %build
 
 %install
+rm -rf $RPM_BUILD_ROOT
 %{__make} install LIBDIR=$RPM_BUILD_ROOT%{_libdir}/python
 
 gzip -9nf CHANGES
