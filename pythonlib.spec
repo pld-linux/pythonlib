@@ -9,7 +9,7 @@ Source:		%{name}-%{version}.tar.gz
 Patch0:		pythonlib-Conf.patch 
 Patch1:		pythonlib-user.patch 
 Requires:	python
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Buildarch:	noarch
 
 %description
