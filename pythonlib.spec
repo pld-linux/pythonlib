@@ -28,7 +28,7 @@ W pakiecie znajduj± siê pliki wykorzystywane przez wiele programów.
 %build
 
 %install
-make install LIBDIR=$RPM_BUILD_ROOT%{_libdir}/rhs/python
+%{__make} install LIBDIR=$RPM_BUILD_ROOT%{_libdir}/rhs/python
 
 gzip -9nf CHANGES
 
