@@ -21,13 +21,13 @@ keybindings, among others.
 W pakiecie znajduj± siê pliki wykorzystywane przez wiele programów.
 
 %description -l pt_BR
-Este pacote contém o código usado por uma variedade de programas
-Red Hat.  Inclui código para caixas de listas multicampo e widgets de
+Este pacote contém o código usado por uma variedade de programas Red
+Hat. Inclui código para caixas de listas multicampo e widgets de
 entrada de dados com associações de teclas não padrão, entre outros.
 
 %description -l es
 Este paquete contiene el código usado por una variedad de programas
-Red Hat.  Incluye código para cajas de listas multicampo y widgets de
+Red Hat. Incluye código para cajas de listas multicampo y widgets de
 entrada de datos con asociaciones de teclas no padrón, entre otros.
 
 %prep
@@ -39,7 +39,7 @@ rm -rf $RPM_BUILD_ROOT
 
 gzip -9nf CHANGES
 
-%clean 
+%clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
