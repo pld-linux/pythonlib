@@ -8,6 +8,7 @@ Release:	3
 License:	GPL
 Group:		Development/Libraries
 Source0:	%{name}-%{version}.tar.gz
+# Source0-md5:	986dfa39d68a33e428b6803f953080fc
 Requires:	python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Buildarch:	noarch
