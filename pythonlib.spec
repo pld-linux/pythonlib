@@ -1,4 +1,4 @@
-Summary:	library of python code used by various programs
+Summary:	Library of python code used by various programs
 Summary(pl):	Pliki wsadowe dla jêzyka python
 Summary(pt_BR):	Biblioteca de código python usada por vários programas Red Hat
 Summary(es):	Biblioteca de código python usada por varios programas Red Hat
