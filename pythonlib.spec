@@ -4,7 +4,7 @@ Summary(pt_BR):	Biblioteca de código python usada por vários programas Red Hat
 Summary(es):	Biblioteca de código python usada por varios programas Red Hat
 Name:		pythonlib
 Version:	1.26
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Libraries
 Source0:	%{name}-%{version}.tar.gz
