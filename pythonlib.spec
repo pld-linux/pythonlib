@@ -10,8 +10,8 @@ Group:		Development/Libraries
 Source0:	%{name}-%{version}.tar.gz
 # Source0-md5:	986dfa39d68a33e428b6803f953080fc
 Requires:	python
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-Buildarch:	noarch
 
 %description
 This package contains code used by a variety of programs. It includes
