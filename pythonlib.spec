@@ -37,12 +37,11 @@ entrada de datos con asociaciones de teclas no padrón, entre otros.
 rm -rf $RPM_BUILD_ROOT
 %{__make} install LIBDIR=$RPM_BUILD_ROOT%{_libdir}/python
 
-gzip -9nf CHANGES
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc CHANGES
 %{_libdir}/python
