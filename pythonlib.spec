@@ -10,7 +10,7 @@ Patch0:      pythonlib-Conf.patch
 Patch1:      pythonlib-user.patch 
 Requires:    python
 Buildarch:   noarch
-BuildRoot:   /tmp/%{name}-%{version}-root
+BuildRoot:	/tmp/%{name}-%{version}-root
 
 %description
 This package contains code used by a variety of programs. It includes 
