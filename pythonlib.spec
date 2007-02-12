@@ -1,7 +1,7 @@
 Summary:	Library of Python code used by various programs
-Summary(pl):	Pliki wsadowe dla jêzyka Python
-Summary(pt_BR):	Biblioteca de código Python usada por vários programas Red Hat
-Summary(es):	Biblioteca de código Python usada por varios programas Red Hat
+Summary(pl.UTF-8):   Pliki wsadowe dla jÄ™zyka Python
+Summary(pt_BR.UTF-8):   Biblioteca de cÃ³digo Python usada por vÃ¡rios programas Red Hat
+Summary(es.UTF-8):   Biblioteca de cÃ³digo Python usada por varios programas Red Hat
 Name:		pythonlib
 Version:	1.26
 Release:	4
@@ -18,18 +18,18 @@ This package contains code used by a variety of programs. It includes
 code for multifield listboxes and entry widgets with non-standard
 keybindings, among others.
 
-%description -l pl
-W pakiecie znajduj± siê pliki wykorzystywane przez wiele programów.
+%description -l pl.UTF-8
+W pakiecie znajdujÄ… siÄ™ pliki wykorzystywane przez wiele programÃ³w.
 
-%description -l pt_BR
-Este pacote contém o código usado por uma variedade de programas Red
-Hat. Inclui código para caixas de listas multicampo e widgets de
-entrada de dados com associações de teclas não padrão, entre outros.
+%description -l pt_BR.UTF-8
+Este pacote contÃ©m o cÃ³digo usado por uma variedade de programas Red
+Hat. Inclui cÃ³digo para caixas de listas multicampo e widgets de
+entrada de dados com associaÃ§Ãµes de teclas nÃ£o padrÃ£o, entre outros.
 
-%description -l es
-Este paquete contiene el código usado por una variedad de programas
-Red Hat. Incluye código para cajas de listas multicampo y widgets de
-entrada de datos con asociaciones de teclas no padrón, entre otros.
+%description -l es.UTF-8
+Este paquete contiene el cÃ³digo usado por una variedad de programas
+Red Hat. Incluye cÃ³digo para cajas de listas multicampo y widgets de
+entrada de datos con asociaciones de teclas no padrÃ³n, entre otros.
 
 %prep
 %setup -q
