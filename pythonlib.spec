@@ -1,7 +1,7 @@
 Summary:	Library of Python code used by various programs
-Summary(pl.UTF-8):   Pliki wsadowe dla języka Python
-Summary(pt_BR.UTF-8):   Biblioteca de código Python usada por vários programas Red Hat
-Summary(es.UTF-8):   Biblioteca de código Python usada por varios programas Red Hat
+Summary(pl.UTF-8):	Pliki wsadowe dla języka Python
+Summary(pt_BR.UTF-8):	Biblioteca de código Python usada por vários programas Red Hat
+Summary(es.UTF-8):	Biblioteca de código Python usada por varios programas Red Hat
 Name:		pythonlib
 Version:	1.26
 Release:	4
